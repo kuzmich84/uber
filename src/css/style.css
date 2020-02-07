@@ -1,0 +1,222 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header  {
+    position: relative;
+}
+
+nav {
+
+    background-color: #212121;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+
+.menu .menu_link {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted #000000;
+    padding-right: 28px;
+}
+
+.subheader {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+}
+
+.subheader .subheader_logo {
+    max-width: 100%;
+    margin-top: 16px;
+    display: block;
+}
+
+.subheader .subheader_official{
+    margin-bottom: 16px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.502);
+}
+
+.subheader_call {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    text-align: right;
+}
+
+.subheader_phone {
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.subheader_btn {
+    background-color: #3aa7c0;
+    width: 182px;
+    height: 56px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.promo {
+    background-image: url('../img/bg/main_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 800px;
+    padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 22px;
+
+}
+
+.promo .promo_subheader {
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 0;
+
+}
+
+.promo .promo_desc {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.333;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto 0;
+
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 rgba(0,0,0,0.12);
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.advantage {
+    padding-top: 70px;
+}
+.advantage .advantage_icon {
+    width: 113px;
+    height: 113px;
+    border-radius: 50%;
+    background-color: #409db4;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantage_icon-cash::before {
+     content: "";
+     background-image: url("../icons/reasons/reason_1.png");
+     display: flex;
+     width: 80px;
+     height: 66px;
+    background-repeat: no-repeat;
+ }
+
+.advantage_icon-money::before {
+    content: "";
+    background-image: url("../icons/reasons/reason_3.png");
+    display: flex;
+    width: 83px;
+    height: 53px;
+    background-repeat: no-repeat;
+}
+
+.advantage_icon-key::before {
+    content: "";
+    background-image: url("../icons/reasons/reason_5.png");
+    display: flex;
+    width: 54px;
+    height: 78px;
+    background-repeat: no-repeat;
+}
+
+.advantage_icon-phone::before {
+    content: "";
+    background-image: url("../icons/reasons/reason_7.png");
+    display: flex;
+    width: 85px;
+    height: 66px;
+    background-repeat: no-repeat;
+}
+
+
+.advantage .advantage_header {
+    font-size: 17px;
+    color: rgb(30, 172, 199);
+    line-height: 21px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.advantage .advantage_text {
+    color: black;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 300;
+}
+
+.advantage-row {
+    display: flex;
+    justify-content: center;
+}
+
+.advantage_subtitle {
+    text-transform: uppercase;
+    color: #ffffff;
+    display: block;
+    background-color: #3a1e1e;
+    text-align: center;
+    margin: 0 auto;
+    width: 113px;
+    font-size: 11px;
+    font-weight: 100;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+}
+
+.advantage_main-header {
+    text-transform: uppercase;
+    font-size: 38px;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 40px;
+}
